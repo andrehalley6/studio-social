@@ -1,0 +1,25 @@
+/* CSS Document */
+
+.clear_both { clear:both; }
+
+.dialog_label { display: block; width: 65px; float: left; /*margin: 2px 4px 6px 4px;*/ text-align: right; }
+.dialog_long_label { display: block; width: 100px; float: left; /*margin: 2px 4px 6px 4px;*/ text-align: right; }
+
+.dialog_input { border:1px solid #006; background-color:#ffc; margin:0 0 0 5px; }
+.dialog_input:hover { border:1px solid #f00; background-color:#ff6; }
+
+.dialog_button{ font-weight:bold; background-color:#eceef5; border:1px solid #d4d4d4; color:#185d98; width:80px; margin:0 5px 0 5px; -moz-border-radius:3px; border-radius:3px; }
+.dialog_button:hover { color:#fff; background-color:#33c; border:solid 1px #A6A6A6; cursor:pointer; }
+
+.submit_disabled { font-weight:bold; background-color:#ccc; border:1px solid #ccc; color:#fff; width:80px; margin:0 5px 0 5px; -moz-border-radius:3px; border-radius:3px; }
+.submit_disabled:hover { cursor:pointer; }
+
+.radio, .checkbox { margin:0 2px 0 2px; }
+
+#recipients_img { margin-left:5px; }
+
+.xmark { margin-left:5px;}	/*X mark, to delete recipients*/
+.xmark:hover {cursor:pointer;}
+
+.recipients_disabled { background-color:#ccc; }	/*disabled recipients box*/
+.see_more { color:#00F; }	/*see detail at facebook (lihat lebih)*/
